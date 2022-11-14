@@ -1,6 +1,3 @@
-.App {
-  text-align: center;
-}
 
 .App-logo {
   height: 40vmin;
@@ -13,15 +10,27 @@
   }
 }
 
-.App-header {
+.App {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.popover{
+  background-color: #282c34;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: .9rem;
+}
+
+.switchLabel{
+  font-size: 1.5rem;
+  margin-right: 1rem;
 }
 
 .App-link {
@@ -35,4 +44,209 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.my-switch{
+  display: inline-block;
+}
+
+.switch-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.parameters{
+  flex-direction: column;
+}
+.input-value{
+  color: white;
+  background-color: #4f535c;
+  border: 0;
+  border-bottom: 1px white solid;
+  font-size: 1.5rem;
+  width: 80px;
+  text-align: center;
+}
+
+.input-unit{
+  color: white;
+  background-color: #4f535c;
+  border: 0;
+  border-bottom: 1px white solid;
+  font-size: 1.5rem;
+  width: 45px;
+  text-align: center;
+  padding-right: 5px;
+}
+
+.input-unit-large{
+  width: 90px;
+}
+
+.select-unit{
+  color: white;
+  background-color: #4f535c;
+  border: 0;
+  border-bottom: 1px white solid;
+  font-size: 1.5rem;
+  width: min-content;
+  text-align: center;
+  padding-right: 5px;
+}
+
+.input-disabled{
+}
+
+.input-value:focus{
+  outline: none;
+}
+
+.input-unit:focus{
+  outline: none;
+}
+
+.select-unit:focus{
+  outline: none;
+}
+
+.input-slider{
+  -webkit-appearance: none;
+  cursor: pointer;
+  background: white;
+  height: 4px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.input-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%; 
+  background: white;
+  cursor: pointer;
+}
+
+.input-label{
+  font-size: 1.5rem;
+  padding-left: 5px;
+  width: 170px;
+  display: inline-block;
+}
+
+.input-value-display{
+  display: inline-block;
+font-size: 1.5rem;
+text-align: center;
+width: 130px;
+}
+
+.input-value-display-bedarf{
+  display: inline-block;
+font-size: 1.5rem;
+text-align: center;
+width: 210px;
+}
+
+.segment-label{
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  text-decoration: underline;
+}
+
+.sub-segment-label{
+  margin: auto;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.sub-segment-label-special{
+margin-top: 30px;
+}
+
+.contraindications-box{
+  display: flex;
+  margin: auto;
+  margin-top: 3%;
+  flex-direction: column;
+}
+
+.patient-data-box{
+  margin: auto;
+  margin-left: 0;
+margin-top: 0;
+}
+
+.need-box{
+  margin: auto;
+margin-right: 0;
+  margin-top: 0;
+}
+
+.kcal-need{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.patient-data-need-box{
+display: flex;
+width: 80%;
+margin: auto;
+column-gap: normal;
+}
+
+.nutrition-box{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  column-gap: normal;
+}
+
+.nutrition-box-params{
+margin: auto;
+margin-left: 0;
+margin-top: 0;
+}
+
+.nutrition-box-calcs{
+  margin: auto;
+  margin-right: 0;
+  margin-top: 0;
+}
+
+.summary-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: min-content;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: solid white 1px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
+
+.summary-box .segment-label{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.disclaimer{
+  font-size: 1rem;
+  font-style: italic;
+  width: 80%;
+  margin:auto;
+  margin-top: 0px;
+  margin-bottom: 50px;
+
+}
+
+.test{
+  border: solid white 1px;
+  max-width: 50%;
 }

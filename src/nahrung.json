@@ -1,0 +1,98 @@
+{
+    "Nutrison Concentrated": {
+        "kcal": 2,
+        "kohlenhydrate": 20.1,
+        "eiweiß": 7.5,
+        "fette": 10
+    },
+    "Nutrison Multi Fibre": {
+        "kcal": 1.03,
+        "kohlenhydrate": 12.3,
+        "eiweiß": 4,
+        "fette": 3.9
+    },
+    "Nutrison Protein Advance": {
+        "kcal": 1.28,
+        "kohlenhydrate": 15.4,
+        "eiweiß": 7.5,
+        "fette": 3.7
+    },
+    "Nutrison": {
+        "kcal": 1,
+        "kohlenhydrate": 12.3,
+        "eiweiß": 4,
+        "fette": 3.9
+    },
+    "Nutrison Energy Multi Fibre": {
+        "kcal": 1.53,
+        "kohlenhydrate": 18.4,
+        "eiweiß": 6,
+        "fette": 5.8
+    },
+    "Nutrison Energy": {
+        "kcal": 1.5,
+        "kohlenhydrate": 18.3,
+        "eiweiß": 6,
+        "fette": 5.8
+    },
+    "Nutrison Protein Plus": {
+        "kcal": 1.25,
+        "kohlenhydrate": 14.2,
+        "eiweiß": 6.3,
+        "fette": 4.9
+    },
+    "Nutrison Complete Multi Fibre": {
+        "kcal": 1.24,
+        "kohlenhydrate": 15,
+        "eiweiß": 5.5,
+        "fette": 4.3
+    },
+    "Nutrison Protein Plus Multi Fibre": {
+        "kcal": 1.28,
+        "kohlenhydrate": 14.1,
+        "eiweiß": 6.3,
+        "fette": 4.9
+    },
+    "Nutrison Advanced Diason": {
+        "kcal": 1.03,
+        "kohlenhydrate": 11.3,
+        "eiweiß": 4.3,
+        "fette": 4.2
+    },
+    "Nutrison Advanced Cubison": {
+        "kcal": 1.04,
+        "kohlenhydrate": 12.5,
+        "eiweiß": 5.5,
+        "fette": 3.3
+    },
+    "Nutrison Soya": {
+        "kcal": 1,
+        "kohlenhydrate": 12.3,
+        "eiweiß": 4,
+        "fette": 3.9
+    },
+    "Nutrison Soya Multi Fibre": {
+        "kcal": 1.03,
+        "kohlenhydrate": 12.3,
+        "eiweiß": 4,
+        "fette": 3.9
+    },
+    "Restoric nephro intensiv": {
+        "kcal": 2.0,
+        "kohlenhydrate": 20.6,
+        "eiweiß": 7,
+        "fette": 9.6
+    },
+    "Olimel 5,7 % Infusion": {
+        "kcal": 1.07,
+        "kohlenhydrate": 11,
+        "eiweiß": 5.69,
+        "fette": 4
+    },
+    "Olimel Peri 2,5 % Infusion": {
+        "kcal": 0.7,
+        "kohlenhydrate": 7.5,
+        "eiweiß": 2.53,
+        "fette": 3
+    }
+}
