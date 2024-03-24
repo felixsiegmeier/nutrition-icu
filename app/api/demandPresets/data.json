@@ -1,0 +1,19 @@
+{
+  "Grundumsatz": { "energy": 22, "carbs": 2.8, "protein": 1, "fat": 0.8 },
+  "Bettlägerig": { "energy": 27, "carbs": 4, "protein": 1, "fat": 0.8 },
+  "Kleine Operation": { "energy": 24, "carbs": 3.4, "protein": 1, "fat": 0.8 },
+  "Große Operation": { "energy": 27, "carbs": 4, "protein": 1, "fat": 0.8 },
+  "Polytrauma": { "energy": 30, "carbs": 4, "protein": 1.2, "fat": 1.1 },
+  "Stumpfes Bauchtrauma": {
+    "energy": 30,
+    "carbs": 4,
+    "protein": 1.2,
+    "fat": 1.1
+  },
+  "Milde Infektion": { "energy": 27, "carbs": 4, "protein": 1, "fat": 0.8 },
+  "Mäßige Infektion": { "energy": 32, "carbs": 4, "protein": 1.3, "fat": 1.2 },
+  "Sepsis": { "energy": 35, "carbs": 4.6, "protein": 1.4, "fat": 1.3 },
+  "Schwere Sepsis": { "energy": 27, "carbs": 4, "protein": 1, "fat": 0.8 },
+  "Septischer Schock": { "energy": 22, "carbs": 2.8, "protein": 1, "fat": 0.8 },
+  "Verbrennung": { "energy": 40, "carbs": 5.1, "protein": 1.6, "fat": 1.5 }
+}
