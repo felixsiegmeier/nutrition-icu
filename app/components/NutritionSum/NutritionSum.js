@@ -27,10 +27,10 @@ export default function NutritionSum() {
     };
 
     const nutritionParams = [
-        { key: "energy", label: "Energie (kcal)" },
-        { key: "carbs", label: "Kohlenhydrate (g)" },
-        { key: "protein", label: "Eiweiß (g)" },
-        { key: "fat", label: "Fett (g)" },
+        { key: "energy", label: "Energie (kcal)", unit: "kcal/kg" },
+        { key: "carbs", label: "Kohlenhydrate (g)", unit: "g/kg" },
+        { key: "protein", label: "Eiweiß (g)", unit: "g/kg" },
+        { key: "fat", label: "Fett (g)", unit: "g/kg" },
     ];
 
     return (
@@ -51,11 +51,11 @@ export default function NutritionSum() {
                             <td className="py-4 px-6">-</td>
                             <td className="py-4 px-6">-</td>
                         </tr>
-                        {nutritionParams.map(({ key, label }) => (
+                        {nutritionParams.map(({ key, label, unit }) => (
                             <tr key={key} className="bg-slate-800 border-b border-slate-700 hover:bg-slate-700">
                                 <th scope="row" className="py-4 text-left px-6">{label}</th>
-                                <td className="py-4 px-6">{Math.round(getParamsSum(key))}</td>
-                                <td className="py-4 px-6">{Math.round(getParamDemand(key))}</td>
+                                <td className="py-4 px-6">{Math.round(getParamsSum(key))} <p className="text-xs">({Math.round(getParamsSum(key)/calcWeight()*10)/10} {unit})</p></td>
+                                <td className="py-4 px-6">{Math.round(getParamDemand(key))} <p className="text-xs">({demand[key]} {unit})</p></td>
                                 <td className="py-4 px-6">{getCoveragePercentage(key)}%</td>
                             </tr>
                         ))}

@@ -262,5 +262,61 @@
         "fat": 5.8,
         "application": "tube",
         "portionSize": 1
+    },
+    "Glucose 5%": {
+        "energy": 0.2,
+        "carbs": 5,
+        "protein": 0,
+        "fat": 0,
+        "application": "iv",
+        "portionSize": 1
+    },
+    "Glucose 10%": {
+        "energy": 0.4,
+        "carbs": 10,
+        "protein": 0,
+        "fat": 0,
+        "application": "iv",
+        "portionSize": 1
+    },
+    "Glucose 40%": {
+        "energy": 1.6,
+        "carbs": 40,
+        "protein": 0,
+        "fat": 0,
+        "application": "iv",
+        "portionSize": 1
+    },
+    "Lipofundin MCT 20%": {
+        "energy": 1.93,
+        "carbs": 0,
+        "protein": 0,
+        "fat": 20,
+        "application": "iv",
+        "portionSize": 1
+    },
+    "Aminoplasmal 5%": {
+        "energy": 0.2,
+        "carbs": 0,
+        "protein": 5,
+        "fat": 0,
+        "application": "iv",
+        "portionSize": 1
+    },
+    "Aminoplasmal 10%": {
+        "energy": 0.4,
+        "carbs": 0,
+        "protein": 10,
+        "fat": 0,
+        "application": "iv",
+        "portionSize": 1
+    },
+    "Humanalbumin 20%": {
+        "energy": 0.8,
+        "carbs": 0,
+        "protein": 20,
+        "fat": 0,
+        "application": "iv",
+        "portionSize": 1
     }
 }
